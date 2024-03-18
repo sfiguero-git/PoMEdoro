@@ -62,14 +62,14 @@ bool tilted = false; // For managing "toggle functionality" with tilt sensor
 
 // Custom backslash for LCD display
 byte backslash[8] = {
-  0b00000,
-  0b10000,
-  0b01000,
-  0b00100,
-  0b00010,
-  0b00001,
-  0b00000,
-  0b00000
+  B00000,
+  B10000,
+  B01000,
+  B00100,
+  B00010,
+  B00001,
+  B00000,
+  B00000
 };
 
 // Custom Flag for LCD display
